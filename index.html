@@ -1,101 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Razorpay</title>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <!-- <link rel="stylesheet" href="" /> -->
-  </head>
-  <body>
-    <nav class="bg-[#02042a]">
-      <div
-        class="relative w-[1080px] mx-auto flex items-center justify-between"
-      >
-        <a href="/" class="cursor-pointer py-7 pr-7">
-          <img src="./images/rzr.png" width="125px" height="30px" />
-        </a>
-        <ul class="flex space-x-6">
-          <li
-            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
-          >
-            <a href="#">Payments</a>
-
-            <div
-              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-            ></div>
-          </li>
-
-          <li
-            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
-          >
-            <a href="#">Banking</a>
-
-            <div
-              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-            ></div>
-          </li>
-
-          <li
-            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
-          >
-            <a href="#">Corporate Card</a>
-
-            <div
-              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-            ></div>
-          </li>
-
-          <li
-            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
-          >
-            <a href="#">Payroll</a>
-
-            <div
-              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-            ></div>
-          </li>
-
-          <li
-            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
-          >
-            <a href="#">Resources</a>
-
-            <div
-              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-            ></div>
-          </li>
-
-          <li
-            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
-          >
-            <a href="#">Support</a>
-
-            <div
-              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-            ></div>
-          </li>
-
-          <li
-            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
-          >
-            <a href="#">Pricing</a>
-
-            <div
-              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-            ></div>
-          </li>
-        </ul>
-        <div class="flex space-x-6">
-          <img src="./images/flag.png" width="45px" height="20px" />
-          <button
-            class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold"
-          >
-            Log In
-          </button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Razorpay</title>
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <!-- <link rel="stylesheet" href="" /> -->
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="bg-[#02042a]">
+            <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+                <a href="/" class="cursor-pointer py-7 pr-7">
+                    <img src="./images/rzr.png" width="125px" height="30px">
+                </a>
+                <ul class="flex space-x-6">
+                    <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Payments</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Banking+</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Corporate Card</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Payroll</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Resources</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Support</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Pricing</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                </ul>
+                <div class="flex space-x-6">
+                    <img src="./images/flag.png" width="45px" height="20px">
+                    <button class="py-3 px-6 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold">
+                        Log In
+                    </button>
+                    <button class="px-4 py-3 font-mullish rounded tx-sm font-bold bg-white text-lightBlue300 border-transition-all duration-200 hover:text-lightBlue500">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class="relative bg-deepBlue">
+            <!-- left part -->
+            <div class="w-10/12 flex flex-row justify-between items-center mx-auto">
+                <div class="space-y-8">
+                    <h1 class="font-mullish font-bold leading-[1.2] text-[40px] text-white">Power your Finance,grow your business</h1>
+                    <div class="w-6 bg-greenLight h-1"></div>
+                    <p class="font-mullish max-w-[1080px] text-[18px] text-white leading-7 opacity-70">
+                        Accept payments from customers. Automate payouts to vendors &
+                        employees.Never runout for working capital
+                    </p>
+                    <button class="text-white bg-lightBlue font-mullish font-bold rounded-md cursor-pointer border hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[7px]">Sign Up Now</button>
+                </div >
+                <!-- right part -->
+                <img src="./images/hero-sec.jpg" alt>
+                <!-- shape part  -->
+            </div>
+            <!-- <div class="w-[113%] absolute left-0 right-0 ">
+                <img src="./images/shape-part.jpg" alt>
+            </div> -->
         </div>
-      </div>
-    </nav>
+        <!-- feature section -->
+        <img src="./images/doted_rows.jpg" alt="" loading="lazy">
+        <img src="" alt="">
+        <div>
+            <!-- heading -->
+            <h2>Accept Payment with RazorPay suite</h2>
+            <div></div>
+            <div>
+                <!-- left section -->
+                <div>
+                    <h3>
+                        Supercharge your business with all-powerful
+                        <span class="bg-lightBlue">Payment Gateway</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <span>100+Payment Methods</span>
+                        </li>
+                        <li>
+                            <span>Industry Leading Success Rate</span>
+                        </li>
+                        <li>
+                            <span>
+                                Superior checkout Experience
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Easy to Integrate
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Instant Settlements form Day 1
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                In-depth Reporting and Insights
+                            </span>
+                        </li>
+                    </ul>
+                    <!-- For button and Hyperlink -->
+                    <div>
+                        <button>
+                            Sign Up Now
+                        </button>
+                        <!-- Hyperlink -->
+                        <div>
+                            <a href="">Know more</a>
+                            <i></i>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/payment suite.jpg" alt="">
+            </div>
+        </div>
+    </section>
     <script type="module" src="/main.js"></script>
-  </body>
+</body>
 </html>
